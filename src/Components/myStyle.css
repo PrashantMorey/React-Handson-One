@@ -1,0 +1,59 @@
+.App{
+    height: 100vh;
+
+    background: linear-gradient( rgba(170,208,224,1) 0%, rgba(243,172,184,1) 51%, rgba(248,243,244,1) 100%);
+}
+.grt{
+    color: black;
+    text-shadow: 2px 2px 2px aqua;
+    margin-top: 0;
+}
+.twoBox{
+    display: flex;
+    justify-content: center;
+}
+.firstBox{
+    margin-right: 80px;
+    background-color: #a4d3e4;
+    padding:15px 15px ;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.firstBox:hover{
+    background-color: #62fbfd;
+}
+.secondBox{
+    margin-left: 80px;
+    background-color: #a4d3e4;
+    padding:15px 15px ;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.secondBox:hover{
+    background-color: #62fbfd;
+}
+.twoBigBoxes{
+    margin-top: 100px;
+}
+
+.firstBigBox{
+    margin-left: 100px;
+    border: 2px solid black;
+    background-color: #62fbfd;
+    width: 550px;
+    height: 280px;
+    border-radius: 25px;
+}
+.secondBigBox{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 1020px;
+    bottom: 220px;
+    margin-left: 80px;
+    border: 2px solid black;
+    background-color: #d27fd2;
+    width: 550px;
+    height: 280px;
+    border-radius: 25px;
+
+}
